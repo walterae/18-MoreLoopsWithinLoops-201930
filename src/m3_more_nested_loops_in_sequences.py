@@ -174,7 +174,7 @@ def largest_negative_number(seq_seq):
         subset = seq_seq[k]
         for j in range(len(subset)):
             if 0 > subset[j] > largest:
-                largest =subset[j]
+                largest = subset[j]
 
     if largest == -math.inf:
         return None
